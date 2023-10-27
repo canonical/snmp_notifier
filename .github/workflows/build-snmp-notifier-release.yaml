@@ -29,8 +29,6 @@ jobs:
           path: ./local
       - name: Set up Go
         uses: actions/setup-go@v2
-        with:
-          go-version: latest
       - name: Build binary 
         working-directory: upstream 
         run: |
