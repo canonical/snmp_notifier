@@ -41,7 +41,7 @@ jobs:
           name: snmp_notifier 
           path: ./upstream
 
-  publish:
+  tag:
     name: Publish SNMP Notifier release to ${{github.repository}}
     runs-on: ubuntu-latest
     needs: [ build ]
